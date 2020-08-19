@@ -17,7 +17,7 @@ Ce repository contient des tutoriels sur comment faire de l'analyse de sentiment
 On utilise les données [CONLL2003](https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
 ## Tutoriels
 
- - 1 - [MachineLearning](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
+ - 1 - [BiLSTM-NER](https://github.com/aminaghoul/NER-PyTorch/blob/master/1-BiLSTM-NER.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
  
  Dans ce premier notebook, est présenté l'analyse de sentiments à l'aide de méthode statistique de **Bag-of-words**, **TF-IDF** et d'algorithmes de machine learning : **SVM** et **Régression Logistique**.
 
