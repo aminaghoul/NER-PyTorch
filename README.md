@@ -1,5 +1,6 @@
 # Named Entity Recognition avec PyTorch
 
+https://github.com/dreamgonfly/BERT-pytorch/blob/master/bert/train/model/transformer.py
 
 Ce repository contient des tutoriels sur comment faire de l'analyse de sentiments en utilisant Pytorch 1.4 sur Python 3.7. 
 
