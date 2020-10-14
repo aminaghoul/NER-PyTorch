@@ -18,15 +18,14 @@ Ce repository contient des tutoriels sur comment faire de l'analyse de sentiment
 On utilise les données [CONLL2003](https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
 ## Tutoriels
 
- - 1 - [BiLSTM-NER](https://github.com/aminaghoul/NER-PyTorch/blob/master/1-BiLSTM-NER.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
- 
+ - 1 - [BiLSTM-NER](https://github.com/aminaghoul/NER-PyTorch/blob/master/1-BiLSTM-NER.ipynb) 
  Dans ce premier notebook, le modèle utilisé est un LSTM bidirectionnel classique pour faire de la reconnaissance d'entités nommées (NER).
 
- - 2 - [BiLSTM+Embedding de caractère-NER](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
+ - 2 - [BiLSTM+Embedding de caractère-NER](https://github.com/aminaghoul/NER-PyTorch/blob/master/2-CharacterEmbedding-NER.ipynb]
  
 Ici, on ajoute au modèle précédent un embedding de caractères en utilisant des convolutions.
 
- - 3 - [BiLSTM+CRF](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
+ - 3 - [BiLSTM+CRF](https://github.com/aminaghoul/NER-PyTorch/blob/master/3-CRF-NER.ipynb)
  
  On ajoute au modèle précédent une couche CRF.
  
