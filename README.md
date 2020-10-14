@@ -22,13 +22,13 @@ On utilise les données [CONLL2003](https://github.com/davidsbatista/NER-dataset
  
  Dans ce premier notebook, le modèle utilisé est un LSTM bidirectionnel classique pour faire de la reconnaissance d'entités nommées (NER).
 
- - 2 - [Embedding de caractère-NER](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
+ - 2 - [BiLSTM+Embedding de caractère-NER](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
  
 Ici, on ajoute au modèle précédent un embedding de caractères en utilisant des convolutions.
 
- - 3 - [LSTM](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
+ - 3 - [BiLSTM+CRF](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
  
- Le modèle précédent se complexifie dans ce notebook, on utilise un modèle **LSTM**, bidirectionnel, multi-couches. 
+ On ajoute au modèle précédent une couche CRF.
  
  - 4 - [FastText](https://github.com/aminaghoul/sentiment-analysis/blob/master/0-MachineLearning.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb)
 
