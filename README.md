@@ -1,8 +1,6 @@
 # Named Entity Recognition avec PyTorch
 
-https://github.com/dreamgonfly/BERT-pytorch/blob/master/bert/train/model/transformer.py
-
-Ce repository contient des tutoriels sur comment faire de l'analyse de sentiments en utilisant Pytorch 1.4 sur Python 3.7. 
+Ce repository contient des tutoriels sur comment faire de la reconnaissance d'entités nommées en utilisant Pytorch 1.4 sur Python 3.7. 
 
 ## Installation 
 
@@ -13,6 +11,7 @@ Ce repository contient des tutoriels sur comment faire de l'analyse de sentiment
  - spaCy en anglais : `python -m spacy download en`
  
  - transformers : `pip install transformers`
+ 
 ## Données
 
 On utilise les données [CONLL2003](https://github.com/davidsbatista/NER-datasets/tree/master/CONLL2003)
@@ -21,7 +20,7 @@ On utilise les données [CONLL2003](https://github.com/davidsbatista/NER-dataset
  - 1 - [BiLSTM](https://github.com/aminaghoul/NER-PyTorch/blob/master/1-BiLSTM-NER.ipynb) 
  Dans ce premier notebook, le modèle utilisé est un LSTM bidirectionnel classique pour faire de la reconnaissance d'entités nommées (NER).
 
- - 2 - [BiLSTM+Embedding de caractère](https://github.com/aminaghoul/NER-PyTorch/blob/master/2-CharacterEmbedding-NER.ipynb]
+ - 2 - [BiLSTM+Embedding de caractère](https://github.com/aminaghoul/NER-PyTorch/blob/master/2-CharacterEmbedding-NER.ipynb)
  
 Ici, on ajoute au modèle précédent un embedding de caractères en utilisant des convolutions.
 
