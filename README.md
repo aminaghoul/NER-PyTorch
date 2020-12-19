@@ -43,7 +43,7 @@ On remplace ici la couche BiLSTM par une couche transformers.
  
  ## Résultats
  
- ## Références : 
+ ## Référence : 
  
- - [pytorch-sentiment-analysis ](https://github.com/bentrevett/pytorch-sentiment-analysis#tutorials) 
+ - [Step-by-step NER Model for Bahasa Indonesia with PyTorch and Torchtext](https://yoseflaw.medium.com/step-by-step-ner-model-for-bahasa-indonesia-with-pytorch-and-torchtext-6f94fca08406) 
  
